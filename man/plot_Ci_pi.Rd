@@ -4,8 +4,17 @@
 \alias{plot_Ci_pi}
 \title{Plot Ci, pi, CO2 concentration and partial pressure of CO2 in the substomatal cavities}
 \usage{
-plot_Ci_pi(chamber_TotalCi, chamber_12Ci, chamber_13Ci, chamber_Totalpi,
-  chamber_12pi, chamber_13pi, x_time, plot_format_list, output_fn_prefix)
+plot_Ci_pi(
+  chamber_TotalCi,
+  chamber_12Ci,
+  chamber_13Ci,
+  chamber_Totalpi,
+  chamber_12pi,
+  chamber_13pi,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_TotalCi}{xxxPARAMxxx}

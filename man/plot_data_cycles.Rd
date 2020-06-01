@@ -4,8 +4,14 @@
 \alias{plot_data_cycles}
 \title{Plot each cycle of TDL measurements (visual diagnostics)}
 \usage{
-plot_data_cycles(TDL, TDL_cycle, plot_format_list, output_fn_prefix,
-  Rstd_13C, full_or_window)
+plot_data_cycles(
+  TDL,
+  TDL_cycle,
+  plot_format_list,
+  output_fn_prefix,
+  Rstd_13C,
+  full_or_window
+)
 }
 \arguments{
 \item{TDL}{xxxPARAMxxx}

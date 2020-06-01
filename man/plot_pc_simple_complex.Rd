@@ -4,11 +4,15 @@
 \alias{plot_pc_simple_complex}
 \title{Plot pc, simple and complex}
 \usage{
-plot_pc_simple_complex(chamber_Totalpc_using_simple_Delta_for_gm,
+plot_pc_simple_complex(
+  chamber_Totalpc_using_simple_Delta_for_gm,
   chamber_Totalpc_using_simple_Delta_for_modeling,
   chamber_Totalpc_using_complex_Delta_no_decarboxylation,
-  chamber_Totalpc_using_complex_Delta_full_model, x_time, plot_format_list,
-  output_fn_prefix)
+  chamber_Totalpc_using_complex_Delta_full_model,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Totalpc_using_simple_Delta_for_gm}{xxxPARAMxxx}

@@ -4,8 +4,14 @@
 \alias{plot_pc_total}
 \title{Plot pc, total partial pressure of CO2 at the site of carboxylation}
 \usage{
-plot_pc_total(chamber_Totalpc_using_gm, chamber_12pc_using_gm,
-  chamber_13pc_using_gm, x_time, plot_format_list, output_fn_prefix)
+plot_pc_total(
+  chamber_Totalpc_using_gm,
+  chamber_12pc_using_gm,
+  chamber_13pc_using_gm,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Totalpc_using_gm}{xxxPARAMxxx}

@@ -4,9 +4,15 @@
 \alias{plot_gm}
 \title{Plot gm point simple and complex, internal leaf (mesophyll) conductance calculated for every D value ignoring and estimating decarboxylation effects}
 \usage{
-plot_gm(chamber_Totalgm_point_simple, chamber_12gm_point_simple,
-  chamber_13gm_point_simple, chamber_Totalgm_point_complex, x_time,
-  plot_format_list, output_fn_prefix)
+plot_gm(
+  chamber_Totalgm_point_simple,
+  chamber_12gm_point_simple,
+  chamber_13gm_point_simple,
+  chamber_Totalgm_point_complex,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Totalgm_point_simple}{xxxPARAMxxx}

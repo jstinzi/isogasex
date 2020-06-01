@@ -4,8 +4,20 @@
 \alias{f_val_calc_Delta_i_complex_for_gm}
 \title{Delta_i complex for gm  CHECK DERIVATION  predicted discrimination including boundary layer effects AND decarboxylation effects}
 \usage{
-f_val_calc_Delta_i_complex_for_gm(a, b, a_b, pa, ps, pi, b_gm, f_photo,
-  Gamma_star, e, Rd, k)
+f_val_calc_Delta_i_complex_for_gm(
+  a,
+  b,
+  a_b,
+  pa,
+  ps,
+  pi,
+  b_gm,
+  f_photo,
+  Gamma_star,
+  e,
+  Rd,
+  k
+)
 }
 \arguments{
 \item{a}{xxxPARAMxxx}

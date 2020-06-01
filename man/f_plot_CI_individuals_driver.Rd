@@ -4,8 +4,12 @@
 \alias{f_plot_CI_individuals_driver}
 \title{plot each individual variable}
 \usage{
-f_plot_CI_individuals_driver(val, R_bootstrap, plot_format_list,
-  output_fn_prefix)
+f_plot_CI_individuals_driver(
+  val,
+  R_bootstrap,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{val}{xxxPARAMxxx}

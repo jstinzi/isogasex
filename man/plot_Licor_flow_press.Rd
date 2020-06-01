@@ -4,8 +4,15 @@
 \alias{plot_Licor_flow_press}
 \title{Plot Licor uin, xin, La, Atm_press values 7/21/2012}
 \usage{
-plot_Licor_flow_press(Licor_flow_uin, Licor_H2OR_xin, Licor_La,
-  Licor_Atm_press, x_time, plot_format_list, output_fn_prefix)
+plot_Licor_flow_press(
+  Licor_flow_uin,
+  Licor_H2OR_xin,
+  Licor_La,
+  Licor_Atm_press,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{Licor_flow_uin}{xxxPARAMxxx}

@@ -4,8 +4,7 @@
 \alias{plot_not_na}
 \title{if no data to plot, plot a dummy box (for when certain Licor columns are not collected)}
 \usage{
-plot_not_na(x_time, y_var, pch = 20, type, cex = 0.1, xlab = "",
-  ylab, main)
+plot_not_na(x_time, y_var, pch = 20, type, cex = 0.1, xlab = "", ylab, main)
 }
 \arguments{
 \item{x_time}{xxxPARAMxxx}

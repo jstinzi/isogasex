@@ -4,8 +4,14 @@
 \alias{plot_Cc_total}
 \title{Plot Cc, ppm CO2 concentration at the site of carboxylation, generally meaning inside the chloroplast and ignoring PEPC in cytosol}
 \usage{
-plot_Cc_total(chamber_TotalCc, chamber_12Cc, chamber_13Cc, x_time,
-  plot_format_list, output_fn_prefix)
+plot_Cc_total(
+  chamber_TotalCc,
+  chamber_12Cc,
+  chamber_13Cc,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_TotalCc}{xxxPARAMxxx}

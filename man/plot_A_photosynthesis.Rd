@@ -4,9 +4,17 @@
 \alias{plot_A_photosynthesis}
 \title{Plot A photosynthesis}
 \usage{
-plot_A_photosynthesis(TDL_A_photosynthesis, TDL_12A_photosynthesis,
-  TDL_13A_photosynthesis, Licor_A_photosynthesis, Delta_from_ratios_in_out,
-  Delta_from_A_ratio, x_time, plot_format_list, output_fn_prefix)
+plot_A_photosynthesis(
+  TDL_A_photosynthesis,
+  TDL_12A_photosynthesis,
+  TDL_13A_photosynthesis,
+  Licor_A_photosynthesis,
+  Delta_from_ratios_in_out,
+  Delta_from_A_ratio,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{TDL_A_photosynthesis}{xxxPARAMxxx}

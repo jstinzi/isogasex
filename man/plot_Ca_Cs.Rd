@@ -4,8 +4,17 @@
 \alias{plot_Ca_Cs}
 \title{Plot Ca Cs, CO2 concentrations above the leaf and at the leaf surface}
 \usage{
-plot_Ca_Cs(chamber_TotalCa, chamber_12Ca, chamber_13Ca, chamber_TotalCs,
-  chamber_12Cs, chamber_13Cs, x_time, plot_format_list, output_fn_prefix)
+plot_Ca_Cs(
+  chamber_TotalCa,
+  chamber_12Ca,
+  chamber_13Ca,
+  chamber_TotalCs,
+  chamber_12Cs,
+  chamber_13Cs,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_TotalCa}{xxxPARAMxxx}

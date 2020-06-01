@@ -4,8 +4,14 @@
 \alias{f_val_calc_offset}
 \title{offset (12C Offset, 13C Offset) using hi tank}
 \usage{
-f_val_calc_offset(true_value_hi_12C, true_value_hi_13C, gain_12C, gain_13C,
-  cal_tank_hi_12C, cal_tank_hi_13C)
+f_val_calc_offset(
+  true_value_hi_12C,
+  true_value_hi_13C,
+  gain_12C,
+  gain_13C,
+  cal_tank_hi_12C,
+  cal_tank_hi_13C
+)
 }
 \arguments{
 \item{true_value_hi_12C}{xxxPARAMxxx}

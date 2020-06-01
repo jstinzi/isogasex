@@ -4,8 +4,7 @@
 \alias{f_val_calc_Delta_from_ratios_in_out}
 \title{Delta from ratios in and out?, (Re/Ro)-1, is this really the same?}
 \usage{
-f_val_calc_Delta_from_ratios_in_out(ref_12Ce, ref_13Ce, cham_12Co,
-  cham_13Co)
+f_val_calc_Delta_from_ratios_in_out(ref_12Ce, ref_13Ce, cham_12Co, cham_13Co)
 }
 \arguments{
 \item{ref_12Ce}{xxxPARAMxxx}

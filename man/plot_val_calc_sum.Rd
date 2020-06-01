@@ -4,8 +4,15 @@
 \alias{plot_val_calc_sum}
 \title{This function plots all the calculated values}
 \usage{
-plot_val_calc_sum(val_TDL, val_Licor, val_const, val_temp,
-  plot_format_list, output_fn_prefix, sw)
+plot_val_calc_sum(
+  val_TDL,
+  val_Licor,
+  val_const,
+  val_temp,
+  plot_format_list,
+  output_fn_prefix,
+  sw
+)
 }
 \arguments{
 \item{val_TDL}{xxxPARAMxxx}

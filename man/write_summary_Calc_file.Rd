@@ -4,8 +4,12 @@
 \alias{write_summary_Calc_file}
 \title{write output section}
 \usage{
-write_summary_Calc_file(val, TDL_cycle, output_summary_Calc_fn,
-  output_summary_Calc_last_fn)
+write_summary_Calc_file(
+  val,
+  TDL_cycle,
+  output_summary_Calc_fn,
+  output_summary_Calc_last_fn
+)
 }
 \arguments{
 \item{val}{xxxPARAMxxx}

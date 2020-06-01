@@ -4,8 +4,14 @@
 \alias{f_val_calc_corrected}
 \title{corrected (Corrected 12C, Corrected 13C)}
 \usage{
-f_val_calc_corrected(obs_12C, obs_13C, gain_12C, gain_13C, offset_12C,
-  offset_13C)
+f_val_calc_corrected(
+  obs_12C,
+  obs_13C,
+  gain_12C,
+  gain_13C,
+  offset_12C,
+  offset_13C
+)
 }
 \arguments{
 \item{obs_12C}{xxxPARAMxxx}

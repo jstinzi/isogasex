@@ -138,6 +138,12 @@ function# write_output section
     ,"Licor_HsMch"
     ,"Licor_StableF"
     ,"Licor_Status"
+    ,"Ci.m."
+    ,"Dew.Point"
+    ,"gtc._mmol"
+    ,"gtc_.mmol"
+    ,"H2O_r"
+    ,"H2O_s"
     , sep=",");
 
   for (i_time in 1:val$sum$TDL$n) {

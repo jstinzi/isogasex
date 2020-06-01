@@ -39,3 +39,8 @@ Works with Licor 6800 files.
 7/15/2019
 Updated warning message for Site mismatch between Template and TDL files.
 
+# isogasex 0.2.06
+
+6/1/2020
+Adding additional column to the calculated outputs due to different config
+file with the LI6800/LI850 dual system.

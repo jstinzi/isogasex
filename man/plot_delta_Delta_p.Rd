@@ -4,9 +4,18 @@
 \alias{plot_delta_Delta_p}
 \title{Plot delta, Delta, and p}
 \usage{
-plot_delta_Delta_p(reference_delta_e, chamber_delta_o,
-  chamber_reference_delta_diff_CoCe, Delta_obs, p, delta_13C_Assim,
-  delta_13C_Resp, x_time, plot_format_list, output_fn_prefix)
+plot_delta_Delta_p(
+  reference_delta_e,
+  chamber_delta_o,
+  chamber_reference_delta_diff_CoCe,
+  Delta_obs,
+  p,
+  delta_13C_Assim,
+  delta_13C_Resp,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{reference_delta_e}{xxxPARAMxxx}

@@ -1,8 +1,8 @@
 Package: isogasex
 Type: Package
 Title: Isotopic gas exchange using TDL and Licor input.  Updated version of package tdllicor
-Version: 0.2.05
-Date: 2019-07-02
+Version: 0.2.06
+Date: 2020-06-01
 Author: Erik B. Erhardt <erike@stat.unm.edu> and David T. Hanson <dthanson@unm.edu>
 Maintainer: Erik B. Erhardt <erike@stat.unm.edu>
 Description: Reads TDL and Licor files, aligns them, calculates quantities of interest with bootstrap intervals, and creates plots and tables.
@@ -15,7 +15,7 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 Imports:
     crayon,
     dplyr,

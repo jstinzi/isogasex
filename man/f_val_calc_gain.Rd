@@ -4,9 +4,16 @@
 \alias{f_val_calc_gain}
 \title{gain (12C Gain, 13C Gain)}
 \usage{
-f_val_calc_gain(true_value_hi_12C, true_value_hi_13C, true_value_lo_12C,
-  true_value_lo_13C, cal_tank_hi_12C, cal_tank_hi_13C, cal_tank_lo_12C,
-  cal_tank_lo_13C)
+f_val_calc_gain(
+  true_value_hi_12C,
+  true_value_hi_13C,
+  true_value_lo_12C,
+  true_value_lo_13C,
+  cal_tank_hi_12C,
+  cal_tank_hi_13C,
+  cal_tank_lo_12C,
+  cal_tank_lo_13C
+)
 }
 \arguments{
 \item{true_value_hi_12C}{xxxPARAMxxx}

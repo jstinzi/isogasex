@@ -5,8 +5,17 @@
 \alias{f_val_calc_pc_using_complex_Delta_no_decarboxylation}
 \title{pc using complex D, no decarboxylation  [ab(pa-ps)+a(ps-pi)+pi(bs+al)-Dpa]/(bs+al-b)  is this different from two up? They give different values but both may not be derived properly}
 \usage{
-f_val_calc_pc_using_complex_Delta_no_decarboxylation(Delta, pa, ps, pi, a,
-  a_b, al, b, bs)
+f_val_calc_pc_using_complex_Delta_no_decarboxylation(
+  Delta,
+  pa,
+  ps,
+  pi,
+  a,
+  a_b,
+  al,
+  b,
+  bs
+)
 }
 \arguments{
 \item{Delta}{xxxPARAMxxx}

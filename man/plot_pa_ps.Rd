@@ -4,8 +4,17 @@
 \alias{plot_pa_ps}
 \title{Plot Pa Ps, partial pressure of CO2 above the leaf and at the leaf surface}
 \usage{
-plot_pa_ps(chamber_Totalpa, chamber_12pa, chamber_13pa, chamber_Totalps,
-  chamber_12ps, chamber_13ps, x_time, plot_format_list, output_fn_prefix)
+plot_pa_ps(
+  chamber_Totalpa,
+  chamber_12pa,
+  chamber_13pa,
+  chamber_Totalps,
+  chamber_12ps,
+  chamber_13ps,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Totalpa}{xxxPARAMxxx}

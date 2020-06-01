@@ -4,8 +4,14 @@
 \alias{plot_pi_pa}
 \title{Plot Totalpi_pa, ratio of substomatal CO2 partial pressure to CO2 partial pressure above leaf = Ci/Ca ratio of mol fractions}
 \usage{
-plot_pi_pa(chamber_Totalpi, chamber_Totalpa, chamber_Totalpi_pa, x_time,
-  plot_format_list, output_fn_prefix)
+plot_pi_pa(
+  chamber_Totalpi,
+  chamber_Totalpa,
+  chamber_Totalpi_pa,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Totalpi}{xxxPARAMxxx}

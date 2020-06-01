@@ -4,8 +4,7 @@
 \alias{write_CI_Calc_file}
 \title{write output section}
 \usage{
-write_CI_Calc_file(val, TDL_cycle, output_CI_Calc_fn,
-  output_CI_Calc_last_fn)
+write_CI_Calc_file(val, TDL_cycle, output_CI_Calc_fn, output_CI_Calc_last_fn)
 }
 \arguments{
 \item{val}{xxxPARAMxxx}

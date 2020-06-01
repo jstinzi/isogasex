@@ -4,8 +4,7 @@
 \alias{interp_TDL_tanks_ref}
 \title{Interpolate TDL tank and reference values}
 \usage{
-interp_TDL_tanks_ref(TDL, TDL_cycle, plot_format_list, output_fn_prefix,
-  sw)
+interp_TDL_tanks_ref(TDL, TDL_cycle, plot_format_list, output_fn_prefix, sw)
 }
 \arguments{
 \item{TDL}{xxxPARAMxxx}

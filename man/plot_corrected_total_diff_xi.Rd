@@ -4,8 +4,19 @@
 \alias{plot_corrected_total_diff_xi}
 \title{Plot corrected 12CO2 and 13CO2, total, and difference for reference and sample}
 \usage{
-plot_corrected_total_diff_xi(ref_12C, ref_13C, cham_12C, cham_13C, ref_tot,
-  cham_tot, diff_tot, xi, x_time, plot_format_list, output_fn_prefix)
+plot_corrected_total_diff_xi(
+  ref_12C,
+  ref_13C,
+  cham_12C,
+  cham_13C,
+  ref_tot,
+  cham_tot,
+  diff_tot,
+  xi,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{ref_12C}{xxxPARAMxxx}

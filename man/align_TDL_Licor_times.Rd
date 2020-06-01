@@ -4,8 +4,7 @@
 \alias{align_TDL_Licor_times}
 \title{Find the overlapping time window of the TDL and Licor files and return the start/end indices of each file}
 \usage{
-align_TDL_Licor_times(TDL_time, TDL_n, Licor_time, Licor_n, val_timewindow,
-  sw)
+align_TDL_Licor_times(TDL_time, TDL_n, Licor_time, Licor_n, val_timewindow, sw)
 }
 \arguments{
 \item{TDL_time}{xxxPARAMxxx}

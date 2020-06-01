@@ -4,8 +4,7 @@
 \alias{write_progress}
 \title{write progress to the screen with time elapsed}
 \usage{
-write_progress(text_to_cat, time_start, type_print = c("cat",
-  "matrix")[1])
+write_progress(text_to_cat, time_start, type_print = c("cat", "matrix")[1])
 }
 \arguments{
 \item{text_to_cat}{xxxPARAMxxx}

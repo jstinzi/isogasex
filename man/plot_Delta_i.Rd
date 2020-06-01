@@ -4,11 +4,16 @@
 \alias{plot_Delta_i}
 \title{Plot Delta_i, predicted discrimination}
 \usage{
-plot_Delta_i(chamber_Delta_i_simple_for_gm,
-  chamber_Delta_i_simple_for_modeling, chamber_Delta_i_complex_for_gm,
+plot_Delta_i(
+  chamber_Delta_i_simple_for_gm,
+  chamber_Delta_i_simple_for_modeling,
+  chamber_Delta_i_complex_for_gm,
   chamber_Delta_i_simple_for_gm_Delta_obs,
-  chamber_Delta_i_complex_for_gm_Delta_obs, x_time, plot_format_list,
-  output_fn_prefix)
+  chamber_Delta_i_complex_for_gm_Delta_obs,
+  x_time,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{chamber_Delta_i_simple_for_gm}{xxxPARAMxxx}

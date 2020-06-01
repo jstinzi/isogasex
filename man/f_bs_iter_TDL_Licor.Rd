@@ -4,8 +4,13 @@
 \alias{f_bs_iter_TDL_Licor}
 \title{one BS resample of TDL and Licor means}
 \usage{
-f_bs_iter_TDL_Licor(val_obs_TDL, val_sum_TDL, val_obs_Licor, val_sum_Licor,
-  var_interp)
+f_bs_iter_TDL_Licor(
+  val_obs_TDL,
+  val_sum_TDL,
+  val_obs_Licor,
+  val_sum_Licor,
+  var_interp
+)
 }
 \arguments{
 \item{val_obs_TDL}{xxxPARAMxxx}

@@ -4,8 +4,17 @@
 \alias{f_plot_CI_individuals}
 \title{plot all variables with bs values, mean value, and CI intervals}
 \usage{
-f_plot_CI_individuals(x_bs, x_sum, x_CI, x_title, x_time, x_n, R_bootstrap,
-  plot_format_list, output_fn_prefix)
+f_plot_CI_individuals(
+  x_bs,
+  x_sum,
+  x_CI,
+  x_title,
+  x_time,
+  x_n,
+  R_bootstrap,
+  plot_format_list,
+  output_fn_prefix
+)
 }
 \arguments{
 \item{x_bs}{xxxPARAMxxx}
