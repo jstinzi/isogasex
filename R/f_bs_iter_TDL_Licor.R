@@ -107,6 +107,13 @@ function# one BS resample of TDL and Licor means
   val_bs_sum$Licor$Ref_mV              <- val_sum_Licor$Ref_mV      ;
   val_bs_sum$Licor$xTemp1              <- val_sum_Licor$xTemp1      ;
   val_bs_sum$Licor$xTemp2              <- val_sum_Licor$xTemp2      ;
+  #new variables
+  val_bs_sum$Licor$Ci.m.               <- val_sum_Licor$Ci.m.       ;
+  val_bs_sum$Licor$Dew.Point           <- val_sum_Licor$Dew.Point   ;
+  val_bs_sum$Licor$gtc._mmol           <- val_sum_Licor$gtc._mmol   ;
+  val_bs_sum$Licor$gtc_.mmol           <- val_sum_Licor$gtc_.mmol   ;
+  val_bs_sum$Licor$H2O_r               <- val_sum_Licor$H2O_r       ;
+  val_bs_sum$Licor$H2O_s               <- val_sum_Licor$H2O_s       ;
 
   return( val_bs_sum );
   ### val_bs_sum

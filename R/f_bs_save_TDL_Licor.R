@@ -116,6 +116,13 @@ function# save BS resample of TDL and Licor means
       val_bs$Licor$Ref_mV              <- zeros;
       val_bs$Licor$xTemp1              <- zeros;
       val_bs$Licor$xTemp2              <- zeros;
+      #new variables
+      val_bs_sum$Licor$Ci.m.           <- zeros;
+      val_bs_sum$Licor$Dew.Point       <- zeros;
+      val_bs_sum$Licor$gtc._mmol       <- zeros;
+      val_bs_sum$Licor$gtc_.mmol       <- zeros;
+      val_bs_sum$Licor$H2O_r           <- zeros;
+      val_bs_sum$Licor$H2O_s           <- zeros;
     }
   }
 
@@ -183,6 +190,13 @@ function# save BS resample of TDL and Licor means
     val_bs$Licor$Ref_mV            [,i_bs]  <- val_bs_sum$Licor$Ref_mV            ;
     val_bs$Licor$xTemp1            [,i_bs]  <- val_bs_sum$Licor$xTemp1            ;
     val_bs$Licor$xTemp2            [,i_bs]  <- val_bs_sum$Licor$xTemp2            ;
+    #new variables
+    val_bs$Licor$Licor$Ci.m.       [,i_bs] <- val_bs_sum$Licor$Ci.m.       ;
+    val_bs$Licor$Licor$Dew.Point   [,i_bs] <- val_bs_sum$Licor$Dew.Point   ;
+    val_bs$Licor$Licor$gtc._mmol   [,i_bs] <- val_bs_sum$Licor$gtc._mmol   ;
+    val_bs$Licor$Licor$gtc_.mmol   [,i_bs] <- val_bs_sum$Licor$gtc_.mmol   ;
+    val_bs$Licor$Licor$H2O_r       [,i_bs] <- val_bs_sum$Licor$H2O_r       ;
+    val_bs$Licor$Licor$H2O_s       [,i_bs] <- val_bs_sum$Licor$H2O_s       ;
   }
 
   return( val_bs );
