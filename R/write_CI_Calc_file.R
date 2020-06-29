@@ -133,7 +133,16 @@ function# write_output section
     ,"Licor_CsMch_CI_L"                                                   ,"Licor_CsMch_CI_U"                                                     #,"Licor_CsMch"
     ,"Licor_HsMch_CI_L"                                                   ,"Licor_HsMch_CI_U"                                                     #,"Licor_HsMch"
     ,"Licor_StableF_CI_L"                                                 ,"Licor_StableF_CI_U"                                                   #,"Licor_StableF"
-    ,"Licor_Status_CI_L"                                                  ,"Licor_Status_CI_U"                                                    #,"Licor_Status"
+    ,"Licor_Status_CI_L"                                                  ,"Licor_Status_CI_U"
+    #new variables
+    #,"Licor_StableF"
+    ,"Licor_Ci.m._CI_L"                                                  ,"Licor_Ci.m._CI_U"                                                   #,"Licor_StableF"
+    ,"Licor_Dew.Point_CI_L"                                                  ,"Licor_Dew.Point_CI_U"                                                   #,"Licor_StableF"
+    ,"Licor_gtc._mmol_CI_L"                                                  ,"Licor_gtc._mmol_CI_U"                                                   #,"Licor_StableF"
+    ,"Licor_gtc_.mmol_CI_L"                                                  ,"Licor_gtc_.mmol_CI_U"                                                   #,"Licor_StableF"
+    ,"Licor_H2O_r_CI_L"                                                  ,"Licor_H2O_r_CI_U"                                                   #,"Licor_StableF"
+    ,"Licor_H2O_s_CI_L"                                                  ,"Licor_H2O_s_CI_U"
+    #,"Licor_Status"
     # typically not used
     #,"VpdA_CI_L"        ,"VpdA_CI_U"         #,"VpdA"
     #,"Ci_Ca_CI_L"       ,"Ci_Ca_CI_U"        #,"Ci_Ca"
@@ -261,6 +270,13 @@ function# write_output section
           ,val$calc$CI$Licor_HsMch_CI_L[i_time,1]                                        ,val$calc$CI$Licor_HsMch_CI_U[i_time,2]                                           #,"Licor_HsMch"
           ,val$calc$CI$Licor_StableF_CI_L[i_time,1]                                      ,val$calc$CI$Licor_StableF_CI_U[i_time,2]                                         #,"Licor_StableF"
           ,val$calc$CI$Licor_Status_CI_L[i_time,1]                                       ,val$calc$CI$Licor_Status_CI_U[i_time,2]                                          #,"Licor_Status"
+          #new variables
+          ,val$calc$CI$Licor_Ci.m._CI_L[i_time,1]                                       ,val$calc$CI$Licor_Ci.m._CI_U[i_time,2]                                         #,"Licor_StableF"
+          ,val$calc$CI$Licor_Dew.Point_CI_L[i_time,1]                                       ,val$calc$CI$Licor_Dew.Point_CI_U[i_time,2]                                         #,"Licor_StableF"
+          ,val$calc$CI$Licor_gtc._mmol_CI_L[i_time,1]                                       ,val$calc$CI$Licor_gtc._mmol_CI_U[i_time,2]                                         #,"Licor_StableF"
+          ,val$calc$CI$Licor_gtc_.mmol_CI_L[i_time,1]                                       ,val$calc$CI$Licor_gtc_.mmol_CI_U[i_time,2]                                         #,"Licor_StableF"
+          ,val$calc$CI$Licor_H2O_r_CI_L[i_time,1]                                       ,val$calc$CI$Licor_H2O_r_CI_U[i_time,2]                                         #,"Licor_StableF"
+          ,val$calc$CI$Licor_H2O_s_CI_L[i_time,1]                                       ,val$calc$CI$Licor_H2O_s_CI_U[i_time,2]
           , sep=",")
       )
   }

@@ -157,6 +157,10 @@ function# Assign TDL and Licor values to val variable names, raw and summarized 
   ## xTemp1            xTemp1
   ## xTemp2            xTemp2
   ## TChamAir          TChamAir
+  ## Ci.m.             Ci.m.
+  ## Dew.Point         Dew.Point
+  ## gtc._mmol         gtc._mmol
+  ## gtc_.mmol         gtc_.mmol
   ## }
   ##
   ## EXPECTED column names for TDL:
@@ -222,6 +226,13 @@ function# Assign TDL and Licor values to val variable names, raw and summarized 
   if (sum(colnames(Licor$data)=="HsMch"    )) { val$obs$Licor$HsMch             <- Licor$data[,"HsMch"    ]; } else {val$obs$Licor$HsMch          <- matrix(NA,temp_n_Licor,1)};
   if (sum(colnames(Licor$data)=="StableF"  )) { val$obs$Licor$StableF           <- Licor$data[,"StableF"  ]; } else {val$obs$Licor$StableF        <- matrix(NA,temp_n_Licor,1)};
   if (sum(colnames(Licor$data)=="Status"   )) { val$obs$Licor$Status            <- Licor$data[,"Status"   ]; } else {val$obs$Licor$Status         <- matrix(NA,temp_n_Licor,1)};
+    # New variables
+  if (sum(colnames(Licor$data)=="Ci.m."   )) { val$obs$Licor$Ci.m.            <- Licor$data[,"Ci.m."   ]; } else {val$obs$Licor$Ci.m.         <- matrix(NA,temp_n_Licor,1)};
+  if (sum(colnames(Licor$data)=="Dew.Point"   )) { val$obs$Licor$Dew.Point            <- Licor$data[,"Dew.Point"   ]; } else {val$obs$Licor$Dew.Point         <- matrix(NA,temp_n_Licor,1)};
+  if (sum(colnames(Licor$data)=="gtc._mmol"   )) { val$obs$Licor$gtc._mmol            <- Licor$data[,"gtc._mmol"   ]; } else {val$obs$Licor$gtc._mmol         <- matrix(NA,temp_n_Licor,1)};
+  if (sum(colnames(Licor$data)=="gtc_.mmol"   )) { val$obs$Licor$gtc_.mmol            <- Licor$data[,"gtc_.mmol"   ]; } else {val$obs$Licor$gtc_.mmol         <- matrix(NA,temp_n_Licor,1)};
+  if (sum(colnames(Licor$data)=="H2O_r"   )) { val$obs$Licor$H2O_r            <- Licor$data[,"H2O_r"   ]; } else {val$obs$Licor$H2O_r         <- matrix(NA,temp_n_Licor,1)};
+  if (sum(colnames(Licor$data)=="H2O_s"   )) { val$obs$Licor$H2O_s            <- Licor$data[,"H2O_s"   ]; } else {val$obs$Licor$H2O_s         <- matrix(NA,temp_n_Licor,1)};
     # Variables NOT in calculations
   if (sum(colnames(Licor$data)=="Cond"     )) { val$obs$Licor$gsc               <- Licor$data[,"Cond"     ]; } else {val$obs$Licor$gsc            <- matrix(NA,temp_n_Licor,1)};
   if (sum(colnames(Licor$data)=="Ci"       )) { val$obs$Licor$Ci                <- Licor$data[,"Ci"       ]; } else {val$obs$Licor$Ci             <- matrix(NA,temp_n_Licor,1)};
@@ -305,6 +316,13 @@ function# Assign TDL and Licor values to val variable names, raw and summarized 
   if (sum(colnames(Licor$summary$mean)=="HsMch"    )) { val$sum$Licor$HsMch             <- Licor$summary$mean[,"HsMch"    ]; } else {val$sum$Licor$HsMch          <- matrix(NA,Licor$summary$n,1)};
   if (sum(colnames(Licor$summary$mean)=="StableF"  )) { val$sum$Licor$StableF           <- Licor$summary$mean[,"StableF"  ]; } else {val$sum$Licor$StableF        <- matrix(NA,Licor$summary$n,1)};
   if (sum(colnames(Licor$summary$mean)=="Status"   )) { val$sum$Licor$Status            <- Licor$summary$mean[,"Status"   ]; } else {val$sum$Licor$Status         <- matrix(NA,Licor$summary$n,1)};
+    # New variables
+  if (sum(colnames(Licor$summary$mean)=="Ci.m."   )) { val$sum$Licor$Ci.m.            <- Licor$summary$mean[,"Ci.m."   ]; } else {val$sum$Licor$Ci.m.         <- matrix(NA,Licor$summary$n,1)};
+  if (sum(colnames(Licor$summary$mean)=="Dew.Point"   )) { val$sum$Licor$Dew.Point            <- Licor$summary$mean[,"Dew.Point"   ]; } else {val$sum$Licor$Dew.Point         <- matrix(NA,Licor$summary$n,1)};
+  if (sum(colnames(Licor$summary$mean)=="gtc._mmol"   )) { val$sum$Licor$gtc._mmol            <- Licor$summary$mean[,"gtc._mmol"   ]; } else {val$sum$Licor$gtc._mmol         <- matrix(NA,Licor$summary$n,1)};
+  if (sum(colnames(Licor$summary$mean)=="gtc_.mmol"   )) { val$sum$Licor$gtc_.mmol            <- Licor$summary$mean[,"gtc_.mmol"   ]; } else {val$sum$Licor$gtc_.mmol         <- matrix(NA,Licor$summary$n,1)};
+  if (sum(colnames(Licor$summary$mean)=="H2O_r"   )) { val$sum$Licor$H2O_r            <- Licor$summary$mean[,"H2O_r"   ]; } else {val$sum$Licor$H2O_r         <- matrix(NA,Licor$summary$n,1)};
+  if (sum(colnames(Licor$summary$mean)=="H2O_s"   )) { val$sum$Licor$H2O_s            <- Licor$summary$mean[,"H2O_s"   ]; } else {val$sum$Licor$H2O_s         <- matrix(NA,Licor$summary$n,1)};
     # Variables NOT in calculations
   if (sum(colnames(Licor$summary$mean)=="Cond"     )) { val$sum$Licor$gsc               <- Licor$summary$mean[,"Cond"     ]; } else {val$sum$Licor$gsc            <- matrix(NA,Licor$summary$n,1)};
   if (sum(colnames(Licor$summary$mean)=="Ci"       )) { val$sum$Licor$Ci                <- Licor$summary$mean[,"Ci"       ]; } else {val$sum$Licor$Ci             <- matrix(NA,Licor$summary$n,1)};

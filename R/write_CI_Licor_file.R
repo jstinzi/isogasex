@@ -66,6 +66,13 @@ function# write_output section: Licor file
     ,"Ref_mV_CI_L"      ,"Ref_mV_CI_U"       #,"Ref_mV"
     ,"xTemp1_CI_L"      ,"xTemp1_CI_U"       #,"xTemp1"
     ,"xTemp2_CI_L"      ,"xTemp2_CI_U"       #,"xTemp2"
+    #new variables
+    ,"Ci.m._CI_L"      ,"Ci.m._CI_U"       #,"xTemp2"
+    ,"Dew.Point_CI_L"      ,"Dew.Point_CI_U"       #,"xTemp2"
+    ,"gtc._mmol_CI_L"      ,"gtc._mmol_CI_U"       #,"xTemp2"
+    ,"gtc_.mmol_CI_L"      ,"gtc_.mmol_CI_U"       #,"xTemp2"
+    ,"H2O_r_CI_L"      ,"H2O_r_CI_U"       #,"xTemp2"
+    ,"H2O_s_CI_L"      ,"H2O_s_CI_U"       #,"xTemp2"
     , sep=",");
 
   for (i_time in 1:val$sum$Licor$n) {
@@ -114,6 +121,13 @@ function# write_output section: Licor file
           ,val$CI$Licor$Ref_mV[i_time,1]     ,val$CI$Licor$Ref_mV[i_time,2]                   #,val$sum$Licor$Ref_mV[i_time]
           ,val$CI$Licor$xTemp1[i_time,1]     ,val$CI$Licor$xTemp1[i_time,2]                   #,val$sum$Licor$xTemp1[i_time]
           ,val$CI$Licor$xTemp2[i_time,1]     ,val$CI$Licor$xTemp2[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          #new variables
+          ,val$CI$Licor$Ci.m.[i_time,1]     ,val$CI$Licor$Ci.m.[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          ,val$CI$Licor$Dew.Point[i_time,1]     ,val$CI$Licor$Dew.Point[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          ,val$CI$Licor$gtc._mmol[i_time,1]     ,val$CI$Licor$gtc._mmol[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          ,val$CI$Licor$gtc_.mmol[i_time,1]     ,val$CI$Licor$gtc_.mmol[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          ,val$CI$Licor$H2O_r[i_time,1]     ,val$CI$Licor$H2O_r[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
+          ,val$CI$Licor$H2O_s[i_time,1]     ,val$CI$Licor$H2O_s[i_time,2]                   #,val$sum$Licor$xTemp2[i_time]
           , sep=",")
       )
   }

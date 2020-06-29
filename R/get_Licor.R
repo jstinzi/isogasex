@@ -73,30 +73,7 @@ function# read_Licor file
 
     Licor$data <-
       dat_Licor$data %>%
-      dplyr::select(
-        obs
-      , hhmmss
-      , elapsed
-      , A
-      , E
-      , Tair
-      , Tleaf
-      , Tirga
-      , CO2_r
-      , CO2_s
-      , H2O_r
-      , H2O_s
-      , RHcham
-      , Flow
-      , Qin
-      , Qamb_out
-      , Pa
-      , gtc
-      , Ci
-      , VPDleaf
-      , S
-      , gbw
-      ) %>%
+
       dplyr::rename(
         # Licor 6400    = Licor 6800
         Obs     = obs
@@ -121,10 +98,7 @@ function# read_Licor file
       , VpdL    = VPDleaf
       , Area    = S
       , BLCond  = gbw
-      ) %>%
-      dplyr::mutate(
-        Trmmol = Trmmol * 1000 # mol to mmol
-      ) %>%
+      )  %>%
       as.data.frame() # change to data.frame (tibbles work differently and break the code)
 
   }

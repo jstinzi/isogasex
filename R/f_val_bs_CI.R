@@ -119,6 +119,14 @@ function# create CI for each calculated value
     val_CI$Licor$Ref_mV              <- f_val_bs_CI_endpoints(val_bs_Licor$Ref_mV       , val_bs_Licor$n, ind_CI);
     val_CI$Licor$xTemp1              <- f_val_bs_CI_endpoints(val_bs_Licor$xTemp1       , val_bs_Licor$n, ind_CI);
     val_CI$Licor$xTemp2              <- f_val_bs_CI_endpoints(val_bs_Licor$xTemp2       , val_bs_Licor$n, ind_CI);
+    #new variables
+    val_CI$Licor$Ci.m.               <- f_val_bs_CI_endpoints(val_bs_Licor$Ci.m.       , val_bs_Licor$n, ind_CI);
+    val_CI$Licor$Dew.Point           <- f_val_bs_CI_endpoints(val_bs_Licor$Dew.Point       , val_bs_Licor$n, ind_CI);
+    val_CI$Licor$gtc._mmol           <- f_val_bs_CI_endpoints(val_bs_Licor$gtc._mmol       , val_bs_Licor$n, ind_CI);
+    val_CI$Licor$gtc_.mmol           <- f_val_bs_CI_endpoints(val_bs_Licor$gtc_.mmol       , val_bs_Licor$n, ind_CI);
+    val_CI$Licor$H2O_r               <- f_val_bs_CI_endpoints(val_bs_Licor$H2O_r       , val_bs_Licor$n, ind_CI);
+    val_CI$Licor$H2O_s               <- f_val_bs_CI_endpoints(val_bs_Licor$H2O_s       , val_bs_Licor$n, ind_CI);
+
   }
 
   # Calc values

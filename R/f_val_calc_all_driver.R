@@ -186,6 +186,13 @@ function# This function calls all the \code{f_val_calc.*} files
   val_temp$Licor_HsMch          <- val_Licor$HsMch       ;
   val_temp$Licor_StableF        <- val_Licor$StableF     ;
   val_temp$Licor_Status         <- val_Licor$Status      ;
+  #new variables
+  val_temp$Licor_Ci.m.         <- val_Licor$Ci.m.      ;
+  val_temp$Licor_Dew.Point         <- val_Licor$Dew.Point      ;
+  val_temp$Licor_gtc._mmol         <- val_Licor$gtc._mmol      ;
+  val_temp$Licor_gtc_.mmol         <- val_Licor$gtc_.mmol      ;
+  val_temp$Licor_H2O_r         <- val_Licor$H2O_r      ;
+  val_temp$Licor_H2O_s         <- val_Licor$H2O_s      ;
 
   # typically not used
   #    ,"VpdA"

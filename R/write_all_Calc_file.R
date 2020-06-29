@@ -137,6 +137,13 @@ function# write_output section
     ,"Licor_HsMch"
     ,"Licor_StableF"
     ,"Licor_Status"
+    #new variables
+    ,"Licor_Ci.m."
+    ,"Licor_Dew.Point"
+    ,"Licor_gtc._mmol"
+    ,"Licor_gtc_.mmol"
+    ,"Licor_H2O_r"
+    ,"Licor_H2O_s"
     , sep=",");
 
   for (i_time in 1:val$calc$all$n) {
@@ -260,6 +267,13 @@ function# write_output section
           ,val$calc$all$Licor_HsMch[i_time]
           ,val$calc$all$Licor_StableF[i_time]
           ,val$calc$all$Licor_Status[i_time]
+          #new variables
+          ,val$calc$all$Licor_Ci.m.[i_time]
+          ,val$calc$all$Licor_Dew.Point[i_time]
+          ,val$calc$all$Licor_gtc._mmol[i_time]
+          ,val$calc$all$Licor_gtc_.mmol[i_time]
+          ,val$calc$all$Licor_H2O_r[i_time]
+          ,val$calc$all$Licor_H2O_s[i_time]
           , sep=",")
       #)
   }
